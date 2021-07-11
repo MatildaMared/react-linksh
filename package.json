@@ -1,0 +1,24 @@
+{
+  "name": "react-linksh",
+  "version": "1.0.0",
+  "description": "A link storing/sharing app :)",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatildaMared/react-linksh.git"
+  },
+  "author": "Matilda Mared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatildaMared/react-linksh/issues"
+  },
+  "homepage": "https://github.com/MatildaMared/react-linksh#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
